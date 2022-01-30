@@ -1,0 +1,23 @@
+#navagation {
+    height: 60px;
+}
+
+#navagation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 33px;
+}
+
+#navagation .link {
+    text-decoration: none;
+    color: #000;
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 33px;
+}
+
+#navagation .link:hover {
+    text-decoration: underline;
+}
